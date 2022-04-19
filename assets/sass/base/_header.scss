@@ -1,0 +1,44 @@
+header {
+  background-color: #809d7f40;
+  height: 369px;
+  .nav {
+    padding-top: 44px;
+    padding-bottom: 48px;
+    &-top {
+      a {
+        color: #809d7f;
+        span {
+          font-size: 10px;
+          vertical-align: middle;
+          color: #809d7f;
+        }
+      }
+      &-option {
+        height: 23px;
+        border-right: 1px solid #809d7f;
+        padding-right: 10px;
+        margin-right: 10px;
+      }
+      &-search {
+        input {
+          border-top: 0;
+          border-right: 0;
+          border-bottom: 1px solid;
+          border-left: 0;
+          background-color: transparent;
+          padding-right: 117px;
+          margin-top: 63px;
+        }
+      }
+    }
+    &-item {
+      margin-right: 48px;
+    }
+    &-button {
+      border: 2px solid #707070;
+      background: transparent;
+      height: 47px;
+      width: 168px;
+    }
+  }
+}

@@ -1,0 +1,42 @@
+.footer {
+  background-color: #eeeeee;
+  margin-top: 151px;
+  &-main {
+    .foot-head {
+      margin-top: 33px;
+      margin-bottom: 42px;
+      font-weight: $font-medium;
+      white-space: nowrap;
+    }
+    .foot-desc {
+      padding-bottom: 36px;
+      font-weight: $font-normal;
+      list-style: none;
+      color: #6b6d70;
+      padding-left: 0;
+      li {
+        padding-bottom: 10px;
+        a {
+          color: #6b6d70;
+        }
+      }
+    }
+  }
+  &-btn {
+    margin-top: 22px;
+    margin-bottom: 30px;
+    height: 47px;
+    width: 168px;
+    border: 1px solid #999999;
+    padding: 10px;
+    a {
+      color: #6b6d70;
+    }
+  }
+  &-logo {
+    height: 104px;
+  }
+  &-scroll {
+    vertical-align: bottom;
+  }
+}
